@@ -1,0 +1,32 @@
+{
+  "name": "graphql-node-server",
+  "version": "1.0.0",
+  "description": "A graphql api made with node and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusAlcantara/graphql-node-server.git"
+  },
+  "keywords": [
+    "graphql",
+    "node",
+    "express"
+  ],
+  "author": "Vinícius Alcântara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniciusAlcantara/graphql-node-server/issues"
+  },
+  "homepage": "https://github.com/ViniciusAlcantara/graphql-node-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.2.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.1.7"
+  }
+}
